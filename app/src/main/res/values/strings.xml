@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fourActivities</string>
+    <string name="press">Press!</string>
+    <string name="typehere">Type here...</string>
+    <string name="clear">Clear</string>
+
+</resources>
