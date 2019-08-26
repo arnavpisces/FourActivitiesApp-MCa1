@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".third">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="40dp"
+    android:orientation="vertical" >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Press for a Dice Roll"
+        android:fontFamily="@font/alegreya"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:onClick="dice"
+        android:textAlignment="center"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/dice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/alegreya"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textSize="200dp"
+        />
+
+
+</LinearLayout>

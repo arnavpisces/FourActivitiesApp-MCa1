@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.b4:
 //                intent = new Intent(this,fourth.class);
-                break;
+                finish();
+                System.exit(0);
         }
 
         startActivity(intent);
